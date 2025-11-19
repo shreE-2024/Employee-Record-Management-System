@@ -1,0 +1,23 @@
+<h4 class="mb-3 text-primary border-bottom pb-2">View Employee</h4>
+
+<div class="card shadow-sm border-0 rounded-3">
+  <div class="card-body">
+    <div class="row mb-2">
+      <div class="col-sm-4 fw-bold">Employee ID:</div>
+      <div class="col-sm-8">{{employee.id}}</div>
+    </div>
+    <div class="row mb-2">
+      <div class="col-sm-4 fw-bold">First Name:</div>
+      <div class="col-sm-8">{{employee.firstname}}</div>
+    </div>
+    <div class="row mb-2">
+      <div class="col-sm-4 fw-bold">Last Name:</div>
+      <div class="col-sm-8">{{employee.lastname}}</div>
+    </div>
+    <div class="row mb-2">
+  <div class="col-sm-4 fw-bold">Salary:</div>
+  <div class="col-sm-8 text-success">{{employee.salary | currency:'INR'}}</div>
+</div>
+
+  </div>
+</div>
